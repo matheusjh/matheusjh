@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anonymous Feedback</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center">
+    <h1>Sign Up</h1>
+    <form action="post">
+      <div class="text_field">
+        <input id="newUsername" type="text" required>
+        <span></span>
+        <label>Username</label>
+      </div> 
+      <div class="text_field">
+        <input id="newEmail" type="text" required>
+        <span></span>
+        <label>Email</label>
+      </div>
+      <div class="text_field">
+        <input id="newPassword" type="password" required>
+        <span></span>
+        <label>Password</label>
+      </div>
+      <div class="register">
+        <button type="button" onclick="register()" id="btnRegister">Register</button>
+      </div>
+      <div class="login">
+        <button class="btnLogin" type="button"><a href="index.html">Login</a></button>
+      </div>
+      <div class="signup_link">
+      </div>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
